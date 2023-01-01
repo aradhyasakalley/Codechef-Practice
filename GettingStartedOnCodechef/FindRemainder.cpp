@@ -1,0 +1,13 @@
+// Write a program to find the remainder when an integer A is divided by an integer B.
+#include<iostream>
+using namespace std;
+int main(){
+    int t;
+    cin >> t;
+    while(t--){
+        int a,b;
+        cin >> a >> b;
+        cout << a%b;
+    }
+    return 0;
+}
